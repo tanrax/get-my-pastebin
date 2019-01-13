@@ -9,7 +9,7 @@ Terminal application to find and copy your own Paste for Pastebin.
 - Prints raw Paste by console.
 
 <p align="center">
-    <img src="https://min.gitcdn.link/repo/tanrax/get-my-pastebin/master/demo.svg">
+    <img src="https://min.gitcdn.link/cdn/tanrax/get-my-pastebin/master/demo.svg">
 </p>
 
 ## Use
