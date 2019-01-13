@@ -1,5 +1,9 @@
 # Get my pastebin
 
+<p align="center">
+    <img src="https://min.gitcdn.link/repo/tanrax/get-my-pastebin/master/logo.png">
+</p>
+
 Terminal application to find and copy your own Paste for Pastebin.
 
 - Search in Paste public and private state.
@@ -7,14 +11,17 @@ Terminal application to find and copy your own Paste for Pastebin.
 - Prints raw Paste by console.
 
 <p align="center">
-    <img src="https://min.gitcdn.link/repo/tanrax/get-my-pastebin/master/logo.png">
+    <img src="https://min.gitcdn.link/repo/tanrax/get-my-pastebin/master/demo.svg">
 </p>
 
 ## Use
 
 ``` bash
-getmypastebin --api-key [your api key dev] --username [username account Pastebin] --password [password account Pastebin] [search]
+getmypastebin --api-key [Get Developer API Key] --username [username account Pastebin] --password [password account Pastebin] [search]
 ```
+
+[Get Developer API Key](https://pastebin.com/api#1)
+
 Example
 
 ``` bash
