@@ -37,3 +37,18 @@ pip3 install --user get-my-pastebin
 ``` bash
 pip3 install --user --upgrade get-my-pastebin
 ```
+
+## Alias
+
+Optimize with alias in your `.bashrc` or `.zshrc`.
+
+``` bash
+alias gpaste='getmypastebin --api-key 123qwe456rty --username example --password 123'
+```
+
+Use.
+
+``` bash
+gpaste python
+```
+
