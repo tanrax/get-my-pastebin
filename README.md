@@ -1,5 +1,3 @@
-# Get my pastebin
-
 <p align="center">
     <img src="https://min.gitcdn.link/repo/tanrax/get-my-pastebin/master/logo.png">
 </p>
