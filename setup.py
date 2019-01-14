@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'get-my-pastebin',
   py_modules=['get_my_pastebin'],
-  version = '1.0.10',
+  version = '1.0.11',
   python_requires='>3.6',
   description = 'Terminal application to find and copy your own Paste for Pastebin.',
   author = 'Andros Fenollosa',
@@ -16,7 +16,8 @@ setup(
   ),
   install_requires=[
       'Click>=7.0',
-      'pick>=0.6.4'
+      'pick>=0.6.4',
+      'pyperclip>=1.7.0'
   ],
   entry_points='''
       [console_scripts]
