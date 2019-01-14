@@ -16,7 +16,7 @@ API_RAW_PASTE_URL = 'https://pastebin.com/api/api_raw.php'
 @click.option('--password', required=True, help='Your password account')
 @click.argument('search')
 def main(api_key, username, password, search):
-    """Main application"""
+    """ Terminal application to find and copy your own Paste for Pastebin"""
     user_key = get_user_key(api_key, username, password)
     title = f'Results: {search}'
     options = get_list(api_key, user_key, search)
@@ -95,10 +95,10 @@ def get_raw_paste(api_key, user_key, paste_key):
             }
                 ).encode('ascii')
     response_paste = urllib.request.urlopen(url=API_RAW_PASTE_URL, data=post_data)
-    raw_paste = response_paste.read().decode("utf-8")
+    # Clear
+    raw_paste = response_paste.read().decode("utf-8").replace('\r', '')
 
     return raw_paste
-
 
 if __name__ == '__main__':
     main()
