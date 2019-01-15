@@ -54,4 +54,4 @@ gpaste python
 
 ## Vim integration
 
-[vim-getmypaste](vim-getmypastebin)
+[vim-getmypaste](https://github.com/tanrax/vim-getmypastebin)
