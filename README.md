@@ -52,3 +52,6 @@ Use.
 gpaste python
 ```
 
+## Vim integration
+
+[vim-getmypaste](vim-getmypastebin)
